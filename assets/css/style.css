@@ -5825,3 +5825,10 @@ html[dir="rtl"] .swiper .swiper-slide * {
   inherits: false;
   initial-value: "";
 }
+#preloader {
+  transition: opacity 0.4s ease;
+}
+#preloader.hide {
+  opacity: 0;
+  pointer-events: none;
+}
